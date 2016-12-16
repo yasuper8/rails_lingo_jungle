@@ -9,12 +9,14 @@
   </head>
 
   <body>
-    <%= image_tag("logo.png", :alt => "logo") %>
+
     <% if current_user %>
     Signed in as <%= current_user.email %> | <%= link_to "Logout", '/logout' %>
     <% else %>
       <%= link_to 'Login', '/login' %> | <%= link_to 'Signup', '/signup' %>
     <% end %>
+      <br>
+    <%= image_tag("logo.png", :alt => "logo") %>
 
     <%= yield %>
   </body>
