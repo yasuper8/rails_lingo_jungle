@@ -1,0 +1,11 @@
+<h1>Welcome!!!</h1>
+
+<% @users.each do |u| %>
+  <ul>
+    <li>Email: <%= u.email %></li>
+    <li>Name: <%= u.favorite_animal %></li>
+    <li>Native Language: <%= u.native_lang %></li>
+    <li>Learning Language: <%= u.learn_lang %></li>
+  </ul>
+  <hr>
+<% end %>

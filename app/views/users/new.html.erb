@@ -1,0 +1,7 @@
+<h1>Signup!</h1>
+
+<%= form_for :user, url: '/users' do |f| %>
+
+  <%= render partial: "partials/form", locals: {f: f} %>
+
+<% end %>
