@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  email: MyString
+  favorite_animal: MyString
+  native_lang: MyString
+  learn_lang: MyString
+  image_url: MyString
+  password_digest: MyString
+
+two:
+  email: MyString
+  favorite_animal: MyString
+  native_lang: MyString
+  learn_lang: MyString
+  image_url: MyString
+  password_digest: MyString
